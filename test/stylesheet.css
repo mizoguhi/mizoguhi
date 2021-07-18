@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #333;
+	font-size: 13px;
+	line-height: 150%;
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+	padding: 0px;
+	border: 0px;
+	background-color: #FFF;
+	 top: 10px;
+position: relative;
+}
+
+ #header {
+ 	width: 100%;
+ }
+ #header h1 {
+ 	 margin: 0;
+	 padding: 0;
+}
+
+ #corridor {
+	 width: 100%;
+	 height: auto;
+ }	
+ 
+ #footer {
+ 	 clear: both;
+ 	 width: 100%;
+ 	 padding: 3px 0 3px 0;
+ 	 background: #7fffff;
+ 	 color: #000;
+ 	 font-weight: bold;
+ 	 text-align: center;
+ }
+nav{
+text-align: center;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 18%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #333;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #0000cd;
+}
+#container {
+	 width: 100%;
+	 margin: auto ;
+	 padding-top: 20px;
+	 clear: both;
+ }
+ 
+ #main {
+	 float: left;
+	 width: 60%;
+	 padding: 10px 10px 10px 10px;
+ }
+ #main h2 {
+	 margin: 0 0 10px 0;
+	 padding: 3px 10px 3px 10px;
+	 color: #FFF;
+	 font-size: 16px;
+	 border-left: solid 10px #C00;
+	 background: #4169e1 url(../images/main_h2.jpg) right top repeat-y;
+ }
+ #main p {
+	 margin: 0;
+	 padding: 0;
+ }
+ #main .post {
+	 margin: 0 0 30px 0;
+ }
+
+ #main .post img.right {
+	 margin: 0 0 0 8px;
+ }
+ #main .post img.left {
+	 margin: 0 8px 0 0;
+ }
+
+ .right {
+	 float: right;
+	 width: 40%;
+	 height: auto;
+ }
+ .left {
+	 float: left;
+	 width: 40%;
+	 height: auto;
+ }
+ .clearfix {
+	 zoom: 1;
+ }
+ .clearfix:after{
+	 content: ""; 
+	 display: block; 
+	 clear: both;
+ }
+  #side {
+ 	 float: right;
+ 	 width: 30%;
+ 	 padding: 20px;
+ 	 background-color: #87eccb;
+ }
+ #side .box {
+ 	 margin: 0 auto 30px auto;
+ 	 padding: 0 0 20px 0;
+ 	 background: bottom no-repeat;
+ }
+ #side .box h2 {
+ 	 margin: 0;
+ 	 padding: 8px;
+ 	 text-align: center;
+ 	 color: #fff;
+ 	 font-size: 16px;
+ 	 line-height: 16px;
+ 	 font-weight: normal;
+ 	 background: center no-repeat;
+ }
+ #side .box .boxBody {
+ 	 padding: 8px;
+ 	 border-right: solid 1px #fff;
+ 	 border-bottom: solid 1px #fff;
+ 	 border-left: solid 1px #fff;
+ 	 background: #fff;
+ }
+ #side .box .boxBody ul {
+ 	 margin: 0 0 16px 0;
+ 	 padding: 0;
+ }
+ #side .box .boxBody ul li {
+ 	 padding: 8px 0 8px 4px;
+ 	 list-style: none;
+ 	 border-bottom: solid 1px #0000ff;
+ }

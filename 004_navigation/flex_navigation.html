@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #sort {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            height: 200px;
+        }
+        #sort h1 {
+            text-align: center
+        }
+        #sort .b {
+            flex-grow: 2;
+        }
+        #sort .r {
+            flex-grow: 3;
+        }
+        
+        .y { background-color: yellow; }
+        .r { background-color: red; }
+        .g { background-color: green; }
+        .b { background-color: blue; }
+    </style>
+</head>
+<body>
+    <div id="sort">
+        <h1 class="y">Hoge</h1>
+        <h1 class="r">Fuga</h1>
+        <h1 class="b">Foo</h1>
+        <h1 class="g">Bar</h1>
+    </div>
+</body>
+</html>
